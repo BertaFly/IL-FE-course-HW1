@@ -1,0 +1,44 @@
+body{
+	background-color: #e6e6e6;
+}
+
+	.container{
+		max-width: 500px;
+		margin: 5px auto 20px;
+		padding: 40px 30px 50px;
+		background-color: #FFF;
+		box-shadow: 0 0 10px rgba(0,0,0,0.5);
+		text-align: left;
+		font-family: "Times New Roman";
+		font-size: 16px;
+	}
+
+		h1.title{
+			text-align: center;
+		}
+		
+		.photo{
+			max-width: 130px;
+			margin: 0 auto;
+		}
+
+			img{
+				max-width: 100%;
+			}
+
+		.black-line{
+			border-bottom: solid 1px #000;
+			padding-bottom: 10px;
+		}
+
+		p{
+			padding-left: 10px;
+		}
+
+		ul.list{
+			padding: 0 0 10px 29px;
+		}
+
+		.contacts p{
+			margin: 5px 0 0;
+		}
