@@ -1,0 +1,12 @@
+.intro__photos{
+	display: inline-block;
+	width: 50%;
+	background: url(../../pic/sliderbg.png);
+    background-size: cover;
+}
+
+	.intro__photos-slider{
+		padding-top: 45px;
+		overflow: hidden;
+		position: relative;
+	}

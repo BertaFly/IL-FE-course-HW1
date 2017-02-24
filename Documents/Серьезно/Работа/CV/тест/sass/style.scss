@@ -1,0 +1,14 @@
+@import "core/_reset.scss";
+@import "core/_variables.scss";
+@import "_layout.scss";
+
+@import "../fonts/_font.sass";
+@import "_icon.scss";
+
+@import "components/_button.scss";
+@import "components/_text.scss";
+@import "components/_menu.scss";
+@import "components/_popup.scss";
+
+@import "_home.scss";
+@import "_about.scss"

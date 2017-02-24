@@ -1,0 +1,281 @@
+.intro{
+	padding-top: 83px;
+}
+
+	.intro__content-left{
+		display: inline-block;
+		width: 45%;
+		margin-right: 4%;
+		vertical-align: top;
+	}
+
+		.content-txt{
+			text-align: left;
+		}
+
+			.content-txt__company{
+				@extend .paragraph-txt;
+				margin-top: 239px;
+				line-height: 84px;
+			}
+
+			.content-txt__title{
+				@extend .title;
+				color: #72a9ae;
+				margin-top: 43px;
+			}
+
+				.content-txt__title::after{
+					content: '';
+					margin: 111px 0 73px 0;
+					width: 80px;
+					height: 10px;
+					display: block;
+					border-radius: 5px;
+					background-color: #72a9ae;
+				}
+
+			.content-txt__description{
+				@extend .paragraph-txt;
+				line-height: 84px;
+				width: 85%;
+				color: #757b7c;
+			}
+
+			.content-txt__links{
+				margin-top: 121px;
+			}
+
+				.content-txt__links_involve{
+					display: inline-block;
+					max-width: 334px;
+					border-radius: 54px;
+					border: 7px solid #c76b4a;
+					color: #c76b4a;
+					font-family: $base-font;
+					font-size: 32px;
+					font-weight: 700;
+					line-height: 108px;
+					text-transform: uppercase;
+					text-align: center;
+					margin-right: 75px;
+					padding: 0 50px;
+				}
+
+					.content-txt__links_involve:hover{
+						background: #c76b4a;
+						color: #fff;
+						transition: all 0.3s ease-in-out;
+					}
+
+				.content-txt__links_more{
+					display: inline-block;
+					color: #c7cccd;
+					font-family: $base-font;
+					font-size: 28px;
+					font-weight: 700;
+					line-height: 108px;
+					text-transform: uppercase;
+				}
+
+					.content-txt__links_more:hover{
+						color: #000;
+						transition: all 0.3s ease-in-out;
+					}
+
+	.intro__photos{
+		display: inline-block;
+		width: 50%;
+	}
+
+		.intro__photos-slider{
+			padding-top: 45px;
+			overflow: hidden;
+			position: relative;
+		}
+
+
+/* Laptop ----------- */
+@media screen 
+  	and (min-device-width: 1024px) 
+  	and (max-device-width: 1889px) {
+  		.content-txt__company{
+				margin-top: 50px;
+				line-height: 84px;
+				font-size: 30px;
+			}
+
+			.content-txt__title{
+				color: #72a9ae;
+				margin-top: 43px;
+				font-size: 40px;
+			}
+
+				.content-txt__title::after{
+					content: '';
+					margin: 60px 0;
+					width: 80px;
+					height: 10px;
+					display: block;
+					border-radius: 5px;
+					background-color: #72a9ae;
+				}
+
+			.content-txt__description{
+				line-height: 64px;
+				width: 85%;
+				font-size: 24px;
+			}
+
+			.content-txt__links{
+				margin-top: 50px;
+			}
+
+				.content-txt__links_involve{
+					display: inline-block;
+					width: 35%;
+					border-radius: 54px;
+					border: 7px solid #c76b4a;
+					color: #c76b4a;
+					font-family: $base-font;
+					font-size: 32px;
+					font-weight: 700;
+					line-height: 80px;
+					text-transform: uppercase;
+					text-align: center;
+					margin-right: 50px;
+					padding: 0 50px;
+				}
+  	}
+
+/* Tablets ----------- */
+	@media screen 
+		and (min-device-width : 660px) 
+		and (max-device-width : 1024px){
+			
+			.intro__content--left{
+				width: 40%;
+			}
+				.content-txt__company{
+					margin-top: 50px;
+					line-height: 40px;
+					font-size: 28px;
+				}
+
+					.content-txt__title{
+						color: #72a9ae;
+						margin-top: 20px;
+						font-size: 40px;
+						line-height: 60px;
+					}
+
+						.content-txt__title::after{
+							content: '';
+							margin: 50px 0;
+							width: 80px;
+							height: 10px;
+							display: block;
+							border-radius: 5px;
+							background-color: #72a9ae;
+						}
+
+					.content-txt__description{
+						line-height: 50px;
+						width: 90%;
+						font-size: 20px;
+					}
+		
+						.content-txt__links{
+							margin-top: 60px;
+						}
+
+							.content-txt__links_involve{
+								display: inline-block;
+								width: 38%;
+								border-radius: 54px;
+								border: 5px solid #c76b4a;
+								color: #c76b4a;
+								font-family: $base-font;
+								font-size: 22px;
+								font-weight: 700;
+								line-height: 58px;
+								text-transform: uppercase;
+								text-align: center;
+								margin-right: 1%;
+							}
+
+									.content-txt__links_involve:hover{
+										background: #c76b4a;
+										color: #fff;
+										transition: all 0.3s ease-in-out;
+									}
+
+				.content-txt__links_more{
+					display: inline-block;
+					color: #c7cccd;
+					font-family: $base-font;
+					font-size: 20px;
+					font-weight: 700;
+					line-height: 58px;
+					text-transform: uppercase;
+				}
+			}
+
+/* Phones ----------- */
+	@media screen 
+		and (min-device-width : 320px) 
+		and (max-device-width : 659px){
+			.intro{
+				padding-top: 0;
+			}
+
+				.intro__content-left{
+					margin: 0 auto;
+					text-align: center;
+					width: 100%;
+					display: block;
+				}
+
+				.content-txt{
+					text-align: center;
+				}
+
+				.content-txt__company{
+					margin-top: 149px;
+					line-height: 84px;
+					font-size: 30px;
+				}
+
+				.content-txt__title{
+					margin-top: 35px;
+					line-height: 81px;
+					font-size: 39px;	
+				}
+
+				.content-txt__title::after{
+					margin: 91px auto 98px;
+				}
+
+			.content-txt__description{
+				line-height: 84px;
+				width: 100%;
+				color: #757b7c;
+				font-size: 32px;
+				line-height: 48px;
+			}
+
+			.content-txt__links{
+				margin-top: 95px;
+			}
+
+				.content-txt__links_involve{
+					display: block;
+					font-size: 32px;	
+					line-height: 95px;
+					margin: 0 auto;
+				}
+
+			.intro__photos{
+				display: none;
+			}
+		}
