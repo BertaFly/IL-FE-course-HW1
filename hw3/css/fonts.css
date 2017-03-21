@@ -1,0 +1,32 @@
+/* font-family: "Сorbel"; */
+@font-face {
+    font-family: "Сorbel";
+    src: url("../fonts/corbel.eot");
+    src: url("../fonts/corbel.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/corbel.woff") format("woff"),
+    url("../fonts/corbel.ttf") format("truetype");
+    font-style: normal;
+    font-weight: 400;
+}
+
+/* font-family: "MyriadProRegular"; */
+@font-face {
+    font-family: "MyriadPro";
+    src: url("../fonts/MyriadProRegular.eot");
+    src: url("../fonts/MyriadProRegular.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/MyriadProRegular.woff") format("woff"),
+    url("../fonts/MyriadProRegular.ttf") format("truetype");
+    font-style: normal;
+    font-weight: 400;
+}
+
+/* font-family: "Trebuchet MS"; */
+@font-face {
+    font-family: "Trebuchet MS";
+    src: url("../fonts/TrebuchetMS.eot");
+    src: url("../fonts/TrebuchetMS.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/TrebuchetMS.woff") format("woff"),
+    url("../fonts/TrebuchetMS.ttf") format("truetype");
+    font-style: normal;
+    font-weight: 400;
+}
