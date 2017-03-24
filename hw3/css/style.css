@@ -1,0 +1,350 @@
+img{
+    width: 100%;
+}
+
+a{
+    text-decoration: none;
+}
+
+    .container{
+        max-width: 960px;
+        margin: 0 auto;
+    }
+
+        .menu-top{
+            padding: 12px 0 13px 0;
+            box-shadow: 0 1px 13px rgba(0, 0, 0, 0.75);
+            background-color: #29292a;
+            background-image: linear-gradient(to top, rgba(26, 26, 26, 0.9) 0%, rgba(53, 53, 53, 0.9) 88%, rgba(128, 128, 128, 0.9) 100%);
+        }
+
+            .menu__logo{
+                display: inline-block;
+                width: 14%;
+                vertical-align: middle;
+            }
+
+            .menu__list{
+                display: inline-block;
+                margin-left: 33.4%;
+                width: 52%;
+                text-align: center;
+            }
+
+                .menu__item{
+                    font-family: Сorbel;
+                    display: inline-block;
+                    width: 15%;
+                    margin-right: 1%;
+                    color: #fff;
+                    font-size: 18px;
+                    font-weight: 400;
+                    line-height: 39px;
+                }
+                
+                .menu__item:after{
+                    content: "";
+                    width: 0;
+                    height: 5px;
+                    background-color: #fff;
+                    display: block;
+                    transition: all 0.5s ease;
+                }
+
+                .menu__item:hover:after{
+                    width: 100%;
+                }
+
+    .pretty{
+        background: url(../pic/bg.png);
+        background-size: cover;
+        background-position-y: 34%;
+        padding: 35px 0 0 0;
+        position: relative;
+    }
+
+        .pretty__slider{
+            display: inline-block;
+            width: 50%;
+        }
+
+        .pretty__content{
+            vertical-align: top;
+            display: inline-block;
+            width: 40%;
+            margin-left: 8%;
+            color: #fff;
+            font-weight: 400;
+            line-height: 26px;
+            font-family: "Droid Sans", sans-serif;
+        }
+
+            .pretty__content-title{
+                margin-top: 38px;
+                text-shadow: -1px 2px 2px rgba(0, 0, 0, 0.6);
+                font-size: 26px;
+                font-weight: 700;
+                line-height: 39px;
+                text-transform: capitalize;
+            }
+
+            .pretty__content-txt{
+                font-family: Arial, sans-serif;
+                font-size: 16px;
+                margin-top: 27px;
+            }
+
+            .pretty__content-btn{
+                display: block;
+                width: 41%;
+                margin: 27px auto 30px;
+                border-radius: 3px;
+                background-color: #ec0d0d; /*I have nothing to it, just copied from avocod*/
+                background-image: linear-gradient(to top, #4290c1 0%, #60a9d4 100%);
+                font-size: 28px;
+                line-height: 54px;
+                text-align: center;
+                color: #fff;
+                text-transform: capitalize;
+            }
+
+    .email{
+        margin-top: 69px;
+        border-radius: 2px;
+        background-color: #121814;
+        background-image: linear-gradient(to top, #d1d1d1 0%, #e9e8e6 100%);
+        padding: 16px 18px 14px 11px;
+        box-sizing: border-box;
+    }
+
+        .email__description{
+            display: inline-block;
+            color: #373737;
+            font-family: Arial, sans-serif;
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 26px;
+        }
+
+        .email__input{
+            display: inline-block;
+            margin-left: 14%;
+        }
+
+            .email__input-field{
+                border-radius: 3px;
+                background-color: #ffffff;
+                font-family: Arial, sans-serif;
+                font-size: 14px;
+                font-weight: 400;
+                padding-left: 16px;
+                line-height: 42px;
+            }
+
+                input[type="text"].email__input-field::-webkit-input-placeholder, input[type="text"].email__input-field::-moz-placeholder, input[type="text"].email__input-field:-ms-input-placeholder {
+                    color: #373737;
+                }
+
+                .email__input-submit{
+                    background-image: linear-gradient(to top, #4290c1 0%, #60a9d4 100%);
+                    line-height: 42px;
+                    color: #ffffff;
+                    font-family: "Droid Sans";
+                    font-size: 14px;
+                    font-weight: 400;
+                }
+
+    .articles{
+        font-size: 0;
+        margin: 58px 0 57px 0;
+        font-family: Arial, sans-serif;
+    }
+
+        .articles-with-btn, .articles-no-btn{
+            margin-bottom: 74px;
+            display: flex;
+            justify-content: space-around;
+        }
+
+        .article-wraper{
+            flex: 1;
+        }
+
+            .article{
+                font-size: 14px;
+                font-weight: 400;
+                line-height: 20px;
+                display: flex; 
+                flex-flow: column; 
+                justify-content: space-between;
+                height: 207px;
+            }
+
+                .article-wraper:nth-child(2){
+                    margin: 0 4% 0;
+                }
+
+                .article__title{
+                    color: #000000;
+                    font-size: 18px;
+                    font-weight: 700;
+                }
+
+                    .article__title-img{
+                        display: inline-block;
+                        width: 11%;
+                        vertical-align: middle;
+                    }
+
+                    .article__title-txt{
+                        display: inline-block;
+                        vertical-align: middle;
+                    }
+
+                .article__btn{
+                    display: inline-block;
+                    width: 30%;
+                    text-transform: capitalize;
+                    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.33);
+                    border-radius: 3px;
+                    background-color: #121814;
+                    background-image: linear-gradient(to top, #e3e3e3 0%, #ffffff 100%);
+                    color: #1d1d1d;
+                    font-family: "MyriadProRegular";
+                    font-size: 16px;
+                    text-align: center;
+                    line-height: 34px;
+                }
+
+                .article__btn:hover{
+                    background: #e6e6e6;
+                }
+            .articles-no-btn .article{
+                height: 248px;
+            }
+
+            .article-big-pic__img{
+                width: 100%;
+            }
+
+            .article-big-pic__title{
+                font-family: Arial, sans-serif;
+                font-size: 18px;
+                font-weight: 700;
+                line-height: 20px;
+            }
+
+    .footer{
+        background-color: #fff;
+        background-image: url(../pic/footer-bg.png);
+        background-size: cover;
+        padding-top: 29px;
+        color: #fff;
+        font-family: Arial, sans-serif;
+    }
+
+        .footer__col{
+            display: inline-block;
+            vertical-align: top;
+            width: 27.8%;
+            margin-right: 4%;
+            font-weight: 400;
+        }
+
+            .footer__col:last-child{
+                margin-right: 0;
+            }
+
+            .footer__col-title{
+                text-transform: capitalize;
+                font-size: 24px;
+                line-height: 30px;
+            }
+
+                .footer__col-title::after{
+                    background-image: url(../pic/contact-underline.png);
+                    content: "";
+                    height: 5px;
+                    width: 100%;
+                    margin-bottom: 25px;
+                    display: block;
+                }
+
+            .about__txt{
+                font-size: 14px;
+                line-height: 20px;
+                margin-bottom: 24px;
+            }
+
+            .about__btn{
+                display: inline-block;
+                max-width: 73px;
+                width: 31%;
+                margin-bottom: 24px;
+                color: #fff;
+                text-align: center;
+                font-family: "Trebuchet MS", Arial, sans-serif;
+                font-size: 16px;
+                line-height: 37px;
+                border-radius: 3px;
+                background-color: #ffffff;
+                background-image: linear-gradient(to top, #1454ab 0%, #1d8fd5 100%);
+            }
+
+            .links__list{
+                font-size: 16px;
+                font-weight: 400;
+                line-height: 30px;
+                text-transform: capitalize;
+                list-style-image: url(../pic/arrow.png);
+                padding-left: 25px;
+            }
+
+                .links__list-item{
+                    color: #fff;
+                }
+
+            .contacts input, textarea{
+                box-sizing: border-box;
+                padding: 6px 0 4px 12px;
+                border-radius: 20px;
+                color: #ffffff;
+                font-family: Arial, sans-serif;
+                font-size: 14px;
+                font-weight: 400;
+                line-height: 20px;
+                box-shadow: 1px 1px 0 #ffffff, inset 0 1px 0 #000000;
+                background-color: #0c0b0b;
+                margin-bottom: 8px;
+            }
+
+                .contacts input:focus, textarea:focus{
+                    outline: none;
+                }
+
+                .contacts input[type="submit"]{
+                    box-shadow: none;
+                    border: none;
+                    margin-top: 22px;
+                    border-radius: 3px;
+                    line-height: 37px;
+                    background-image: linear-gradient(to top, #1454ab 0%, #1d8fd5 100%);
+                    outline: none;
+                    font-family: "Trebuchet MS", Arial, sans-serif;
+                    font-size: 16px;
+                    font-weight: 400;
+                    text-align: center;
+                    max-width: 73px;
+                    width: 28%;
+                    padding: 0;
+                    cursor: pointer;
+                }
+
+                .rights{
+                    font-family: Arial, sans-serif;
+                    font-size: 12px;
+                    font-weight: 400;
+                    line-height: 37px;
+                    border: 1px solid #4e4949;
+                    background-color: #050505;
+                }
