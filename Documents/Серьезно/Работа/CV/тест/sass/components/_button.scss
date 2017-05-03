@@ -1,0 +1,28 @@
+.btn{
+	width: 13%;
+	border-radius: 54px;
+	margin-right: 0.5%;
+	color: #FFF;
+	display: inline-block;
+	text-align: center;
+	vertical-align: middle;
+}
+
+/* Phones ----------- */
+@media screen 
+	and (min-device-width : 320px) 
+	and (max-device-width : 640px){
+		.btn{
+			margin-right: 5px;
+		}
+	}
+	// /* Tablets ----------- */
+	// @media screen 
+	// 	and (min-device-width : 641px) 
+	// 	and (max-device-width : 1024px){
+			
+	// 		.btn{
+	// 			width: 13%;
+	//   			vertical-align: bottom;
+	// 		}
+	// 	}

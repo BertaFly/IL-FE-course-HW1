@@ -1,0 +1,153 @@
+.about{
+	background-image: url(../pic/bgmain.png);
+	background-size: cover;
+	padding: 452px 0;
+}
+
+	.about__header{
+		margin: 0 auto;
+		width: 100%;
+	}
+		.about__header-title{
+			@extend .title;
+			color: #fff;
+			float: left;
+			width: 100%;
+			margin-top: 2%;
+		}
+	
+		.about__header-years{
+			float: right;
+			max-width: 722px;
+			max-width: 50%;
+		}
+
+	.about__stats{
+		display: block;
+		margin: 0 auto;
+		border-radius: 36px;
+		background-color: #639a9f;
+		margin-top: 107px;
+		margin-bottom: 207px;
+		padding: 118px 126px 119px 156px;
+		text-align: center;
+		font-size: 0;
+	}
+	
+		.about__stats>.achiv{
+			width: 18%;
+			margin-right: 2.5%;
+			display: inline-block;
+			vertical-align: top;
+		}
+	
+			.achiv:last-child{
+				margin-right: 0;
+			}
+	
+			.achiv__pic{
+				width: 170px;
+				height: 170px;
+				margin: 0 auto;
+			}
+
+			&>img{
+				vertical-align: bottom;
+			}
+
+		.achiv__numb{
+			@extend .title;
+			color: #ead073;
+			font-size: 96px;
+			margin: 68px auto 65px;
+		}
+
+		.achiv__descrip{
+			@extend .paragraph-txt;
+			line-height: 48px;
+			color: #FFF;
+			margin: 0 auto;
+		}
+
+			.achiv:last-child>.achiv__descrip{
+				font-size: 24px;
+				line-height: 38px;
+			}
+
+/* Phones ----------- */
+	@media screen 
+		and (min-device-width : 320px) 
+		and (max-device-width : 659px){
+			.about{
+				padding-top: 150px;
+			}
+			.about__header{
+				display: block;
+				font-size: 60px;
+				margin: 0 auto;
+				text-align: center;
+				float: none;
+			}
+			
+			.about__header-years{
+				display: block;
+				margin: 200px auto 0;
+				float: none;
+			}
+
+			.about__stats{
+				background-color: #72a9ae;
+			}
+
+			.about__stats{
+		display: block;
+		margin: 0;
+		border-radius: 0;
+		background-color: #72a9ae;
+		margin-top: 107px;
+		margin-bottom: 207px;
+		padding: 0px;
+		text-align: center;
+		font-size: 0;
+	}
+	
+		.about__stats>.achiv{
+			width: 30%;
+			margin-right: 10%;
+			display: inline-block;
+			vertical-align: top;
+		}
+	
+			.achiv:last-child{
+				margin-right: 0;
+			}
+	
+			.achiv__pic{
+				width: 130px;
+				height: 120px;
+				margin: 0 auto;
+			}
+
+			&>img{
+				vertical-align: bottom;
+			}
+
+		.achiv__numb{
+			color: #ead073;
+			font-size: 64px;
+			margin: 57px auto 55px;
+		}
+
+		.achiv__descrip{
+			display: block;
+			font-size: 32px;
+			line-height: 42px;
+			color: #FFF;
+			margin-bottom: 92px;
+		}
+
+			.achiv:last-child>.achiv__descrip{
+				font-size: 24px;
+				line-height: 38px;
+			}
+		}
