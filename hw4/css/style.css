@@ -18,44 +18,42 @@ body{
 
         .logo{
             padding: 100px 0 53px 0;
-            text-align: center;
             display: inline-block;
             width: 20%;
+            vertical-align: top;
+            text-align: center;
             background-image: url(../pic/logo.png);
             background-size: contain;
             background-repeat: no-repeat;
             background-position: 100% 71%;
-            vertical-align: top;
+            
         }
 
             .logo__name{
                 margin: 10% auto 0;
                 color: #128aa7;
-                font-size: 12px;
-                font-weight: 400;
-                font-family: Tahoma, sans-serif;
+                font: normal 12px Tahoma, sans-serif;
             }
 
         .header-col-riight{
             position: relative;
+            padding: 11px 45px 9px 0;
             vertical-align: top;
             box-sizing: border-box;
             display: inline-block;
-            text-align: right;
             width: 80%;
-            padding: 11px 45px 9px 0;
             height: 175px;
+            text-align: right;
         }
 
             .header-col-riight__contacts{
-                display: inline-block;
                 top: 0;
                 right: 0;
-                opacity: 0.8;
+                display: inline-block;
+                font: 12px Tahoma, sans-serif;
                 color: #128aa7;
-                font-size: 12px;
                 text-align: left;
-                font-family: Tahoma, sans-serif;
+                opacity: 0.8;
             }
 
                 .header-col-riight__contacts p:first-child{
@@ -67,11 +65,11 @@ body{
                 }
 
             .header-col-riight__country-list{
-                font-size: 0;
-                width: 55%;
                 position: absolute;
                 bottom: 0;
                 right: 0;
+                width: 55%;
+                font-size: 0;            
                 text-align: center;
             }
 
@@ -102,20 +100,20 @@ body{
             }
 
             .menu{
-                background: #000;
                 display: flex;
                 justify-content: space-around;
                 padding: 5px;
                 box-sizing: border-box;
+                background: #000;
             }
 
                 .menu__item{
                     display: inline-block;
                     color: #ffffff;
                     font-size: 14px;
-                    align-self: baseline;
-                    text-decoration: none;
                     font-family: Tahoma, sans-serif;
+                    text-decoration: none;
+                    align-self: baseline;
                     background: #000;
                     border: none;
                 }
@@ -125,9 +123,9 @@ body{
             }
                 .main-content__info, .main-content__news{
                     display: inline-block;
-                    background-color: #f2f2f2;
                     vertical-align: top;
                     width: 20.9%;
+                    background-color: #f2f2f2;
                 }
 
                     .info-item, .news-item{
@@ -150,13 +148,11 @@ body{
                         }
 
                         .info-item__title, .news-item__title{
-                            color: #424c43;
-                            font-size: 18px;
-                            font-weight: bold;
                             margin: 12 auto 0;
                             box-sizing: border-box;
+                            color: #424c43;
+                            font: bold 18px Tahoma, sans-serif;
                             text-align: center;
-                            font-family: Tahoma, sans-serif;
                         }
 
                 .main-content__article{
@@ -182,12 +178,9 @@ body{
                     }
 
             .cory-rights{
-                text-align: center;
                 margin: 8px 0;
-                opacity: 0.8;
+                font: normal 12px/12px Tahoma, sans-serif;
+                text-align: center;
                 color: #ffffff;
-                font-family: Tahoma, sans-serif;
-                font-size: 12px;
-                font-weight: 400;
-                line-height: 12px;
+                opacity: 0.8;
             }
