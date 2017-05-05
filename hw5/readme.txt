@@ -1,28 +1,29 @@
-Перечень заданий
-Основы джаваскрипт
-1. Привет мир:
+Task list
+Osnovy javascript
+1. Hellow world:
 	hw5.html
 	alert.js
-2. Внешние скрипты, порядок исполнения
+2. External scripts, order of execution
 	alert.js
 	otvety.txt
-5.Переменные
+5. Variables
 	variables.js
-6.Правильный выбор имени переменной
+6. Correct choice of variable name
 	variables2.js
-8.Основные операторы
+8. Basic Operators
 	base-operators.js
-11.Взаимодействие с пользователем: alert, prompt, confirm
+11. User interaction: alert, prompt, confirm
 	interection-with-user.js
-12.Условные операторы: if, '?'
+12. Conditional operators: if, '?'
 	if.js
-13.Логические операторы
-	логические операторы.txt
-16.Конструкция switch
+13. Logical Operators
+	logicalOperators.js
+	diapazon.js
+16. Switch
 	switch.js
-17.Функции
-	функции.txt
-19.Рекурсия, стек
+17. Functions
+	functions.js
+19. Recursion, stack
 	recurcion.js
-20.Именованные функциональные выражения
-	Именованные функциональные выражения.txt
+20. Named functional expressions
+	namedFfunctionalExpressions.js

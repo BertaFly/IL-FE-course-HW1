@@ -1,0 +1,27 @@
+"" + 1 + 0 =1
+"" - 1 + 0 =-1
+true + false =true 
+6 / "3" =2
+"2" * "3" = 6
+4 + 5 + "px" =9px
+"$" + 4 + 5 =$9
+
+"4" - 2 =2
+
+"4px" - 2= 2
+
+7 / 0 = infinity
+
+"  -9\n" + 5 =-9\n5
+"  -9\n" - 5 = NaN
+5 && 2 = true
+
+2 && 5 = true 
+
+5 || 0 = true 
+
+0 || 5 = true 
+null + 1 =1
+undefined + 1 = NaN
+null == "\n0\n" = true
++null == +"\n0\n" = true 

@@ -2,7 +2,7 @@ var age = prompt ('How old are you?', '')
     if (age >= 14 && age <= 90) {
         console.log('true');
     } else {
-        console.log('folse');
+        console.log('false');
     }
 
 var age2 = prompt ('How old are you?', '')
