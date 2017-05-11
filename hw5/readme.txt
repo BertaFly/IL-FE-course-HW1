@@ -27,3 +27,10 @@ Osnovy javascript
 	recurcion.js
 20. Named functional expressions
 	namedFfunctionalExpressions.js
+
+Kachestvo koda
+2. Tips for style code
+	tipsForStyle—ode.png
+4. Automatic tests with chai and mocha
+	test.js
+	automaticTestsWithChaiAndMocha.html
