@@ -1,0 +1,6 @@
+Will be alert displayed?
+
+if ("0") {
+  alert( 'Привет' );
+}
+-----yes, the string is not empty

@@ -1,0 +1,11 @@
+If small.js loads faster then big.js – which will be executed first?
+<script src="big.js"></script> - first
+<script src="small.js"></script>
+
+And in this case?
+<script async src="big.js"></script>
+<script async src="small.js"></script> - first
+
+And in this case?
+<script defer src="big.js"></script> - first
+<script defer src="small.js"></script>
